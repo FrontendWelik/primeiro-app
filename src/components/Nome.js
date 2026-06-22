@@ -1,6 +1,6 @@
-function Nome(props){
+function Nome({aluno, idade}){
   return(
-    <span> bem vindo: {props.aluno}</span>// props é um objeto que tem todas as propriedades que foram passadas para o componente
+    <span> bem vindo: {aluno}, você tem {idade} anos</span>
   )
 }
 
