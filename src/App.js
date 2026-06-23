@@ -9,7 +9,7 @@ function App() {
   function mudarName(){
     setAluno('welik carlos');
   }
-s
+
   
   return (
     <div>
